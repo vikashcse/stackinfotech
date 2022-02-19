@@ -1,0 +1,29 @@
+.footermain
+{
+    padding-top:10vh; padding-bottom:10vh;  background-color: rgb(30, 0, 138);
+}
+.coint
+{
+    display: flex;
+}
+
+.fa, .fab
+{
+    color:#fff;
+    font-size:25px;
+    padding: 10px;
+}
+
+.jointCounter p
+{
+    font-size:20px;
+    color:#fff;
+    font-weight: 650;
+}
+
+.jointCounter li
+{
+    color:#fff;
+    list-style: none;
+    font-weight:500;
+}

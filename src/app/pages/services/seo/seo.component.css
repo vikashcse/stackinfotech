@@ -1,0 +1,27 @@
+.mycol2{
+margin: auto;
+padding: 1rem;
+}
+.mybox{
+    padding: 1rem;
+    margin: 10px;
+
+}
+.mybox:hover{
+
+    margin: 10px;
+    box-shadow:
+    0.5px 0.4px 2.2px rgba(0, 0, 0, 0.042),
+    1.3px 0.9px 5.3px rgba(0, 0, 0, 0.061),
+    2.4px 1.8px 10px rgba(0, 0, 0, 0.075),
+    4.2px 3.1px 17.9px rgba(0, 0, 0, 0.089),
+    7.9px 5.8px 33.4px rgba(0, 0, 0, 0.108),
+    19px 14px 80px rgba(0, 0, 0, 0.15)
+  ;
+  
+
+}
+
+.ht{
+    margin: 5px 0 0 5px;
+}

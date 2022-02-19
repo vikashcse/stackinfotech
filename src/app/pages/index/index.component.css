@@ -1,0 +1,195 @@
+.boxs
+{
+    background-color:rgb(255, 255, 255); height:300px; border-radius:10px;     box-shadow: 5px 5px 15px 0px #459fff7d;
+}
+
+.paracks
+{
+    min-height:600px;
+
+}
+
+.corossdiv
+{
+    min-height:300px;
+    background-color: rgb(30, 0, 138);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.corossdiv2
+{
+    min-height:300px;
+    background-color: rgb(30, 0, 138);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.prodBox
+{
+    background-color: #fff;
+    height:55px;
+    border-radius:10px;
+}
+
+.divContact
+{
+    min-height:400px;
+    background-color: rgb(30, 0, 138);
+}
+
+.contactForm
+{
+    min-height: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.btnContact
+{
+    height:40px;
+    width:80%;
+    background-color: #ffbc2b;
+    margin-top:35px;
+    font-weight: 700;
+}
+
+.cards
+{
+    min-height:210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.trigger
+{
+    height:15vh;
+    background-color:  rgb(255, 255, 255);
+    border-radius:10px;
+}
+.slideContainer
+{
+    height:350px;
+    background-color: #ffffff;
+    box-shadow: 7px 15px 9px grey;
+    margin-top:50px;
+}
+.slide
+{
+    min-height:500px;
+}
+
+.accordion {
+    max-width:auto;
+    background: rgba(0, 0, 0, 0.10);
+    height: 500px;
+    margin: 20px auto;
+    display: flex;
+    
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.box {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    background-position: left;
+    background-size: cover;
+    transition: .7s;
+   
+}
+.box:hover{
+    flex: 7;
+    height: 500px;
+}
+.a1 {
+background-color:rgb(238, 20, 111);
+}
+.a2 {
+  background-color:rgb(196, 6, 180);
+}
+.a3 {
+background-color:rgb(125, 8, 221);
+}
+.a4 {
+background-color:rgb(98, 14, 255);
+}
+.a5 {
+   background-color:rgb(15, 177, 226);
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    padding: 10px;
+}
+.box:hover .text{
+    opacity:1;
+}
+.TextP
+{
+color:#fff;
+font-size:18px;
+font-weight:700;
+padding:10px;
+writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        margin: 0;
+    }
+    .accordion {
+        flex-direction: column;
+        height: 700px;
+        box-shadow: none;
+    }
+    .box {
+        box-shadow: none;
+    }
+    .box:hover {
+        flex: 7;
+    }
+}
+
+
+
+
+/* CSS */
+.button-38 {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
+
