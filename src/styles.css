@@ -63,3 +63,8 @@ body
     margin-top:150px;
  
 }
+
+.mydiv{
+    width: 80%;
+    margin: auto;
+}

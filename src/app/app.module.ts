@@ -15,6 +15,14 @@ import { WebDesignComponent } from './pages/services/web-design/web-design.compo
 import { WebDevelopementComponent } from './pages/services/web-developement/web-developement.component';
 import { MobileDevelopementComponent } from './pages/services/mobile-developement/mobile-developement.component';
 import { SeoComponent } from './pages/services/seo/seo.component';
+import { ReserchAndDevelopementComponent } from './pages/services/reserch-and-developement/reserch-and-developement.component';
+import { ItAuditAndConsultingComponent } from './pages/services/it-audit-and-consulting/it-audit-and-consulting.component';
+import { SdcComponent } from './pages/services/sdc/sdc.component';
+import { CsdComponent } from './pages/services/csd/csd.component';
+import { DsdComponent } from './pages/services/dsd/dsd.component';
+import { CloudComponent } from './pages/services/cloud/cloud.component';
+import { FontendComponent } from './pages/services/fontend/fontend.component';
+import { BackendComponent } from './pages/services/backend/backend.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +35,15 @@ import { SeoComponent } from './pages/services/seo/seo.component';
     WebDesignComponent,
     WebDevelopementComponent,
     MobileDevelopementComponent,
-    SeoComponent
+    SeoComponent,
+    ReserchAndDevelopementComponent,
+    ItAuditAndConsultingComponent,
+    SdcComponent,
+    CsdComponent,
+    DsdComponent,
+    CloudComponent,
+    FontendComponent,
+    BackendComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
